@@ -2,7 +2,7 @@
 const route = useRoute();
 const { data } = await useFetch(`/api/collections/${route.params.handle}`)
 
-const menu = data.value.menu;
+//const menu = data.value.menu;
 const collections = data.value.collections;
 
 /* layout */
